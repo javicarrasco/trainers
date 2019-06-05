@@ -56,7 +56,7 @@ dorado= #ffcc00
 dorado negrita= #FAA300
 naranja= #ff5e00
 rosaclaro= #dc60bf
-verde= #69c029
+azul= #09c3dc
 gris claro= #f8f7f4
 gris casi oscuro= #dadada
 gris oscuro= #D3D3D3
@@ -92,7 +92,7 @@ a {
 	text-decoration: none;
 }
 a:hover, a:active, a:focus {
-  color: #69c029;
+  color: #09c3dc;
   outline: none;
   text-decoration: none;
 }
@@ -187,7 +187,7 @@ button {
 	color: #000000
 }
 .rosa{
-  color: #69c029;
+  color: #09c3dc;
 }
 .blanco{
   color: #fff;
@@ -203,7 +203,7 @@ button {
 
 .bgrosaclaro{
   font-weight: 800;
-  color: #69c029;
+  color: #09c3dc;
 	border-radius: 25px;
 	margin: 20px 0px 20px 0px;
   letter-spacing: 1.2px;
@@ -218,7 +218,7 @@ button {
   color: #f8f7f4;
 	border-radius: 5px;
   letter-spacing: 1.2px;
-  background-color: #69c029;
+  background-color: #09c3dc;
 	-webkit-box-shadow: inset -260px 30px 80px -30px rgba(255,204,0,0.3);
   -moz-box-shadow: inset -260px 30px 80px -30px rgba(255,204,0,0.3);
   box-shadow: inset -260px 30px 80px -30px rgba(255,204,0,0.3);
@@ -226,7 +226,7 @@ button {
 }
 .bgdestacado1{
   font-weight: 800;
-  color: #69c029;
+  color: #09c3dc;
 	border-radius: 5px;
 	margin: 20px 0px 20px 0px;
   background-color: #fff;
@@ -235,7 +235,7 @@ button {
 }
 .bgdestacado2{
   font-weight: 800;
-  color: #69c029;
+  color: #09c3dc;
 	border-radius: 5px;
 	margin: 20px 0px 20px 0px;
   background-color: #f8f7f4;
@@ -325,13 +325,13 @@ button {
 	color: #444444;
 }
 .marcoTexto h2{
-	color: #69c029;
+	color: #09c3dc;
 }
 .marcoTexto:hover h2{
 	color: #fff;
 }
 .marcoTexto h3{
-	color: #69c029;
+	color: #09c3dc;
 	opacity: 0.9;
 	font-weight: 600;
 }
@@ -339,7 +339,7 @@ button {
 	color: #fff;
 }
 .marcoTexto h5{
-	color: #69c029;
+	color: #09c3dc;
 	opacity: 0.9;
 	font-weight: 600;
 }
@@ -377,7 +377,7 @@ button {
 	background: #f8f7f4;
 }
 .marcoOSCURO h5{
-	color: #69c029;
+	color: #09c3dc;
 	opacity: 0.7;
 	font-weight: 600;
 	font-size: 1.6em;
@@ -640,7 +640,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 }
 
 .ico-table th {
-  background-color: #69c029;
+  background-color: #09c3dc;
 }
 .ico-table th h6 {
   color: #f8f7f4;
@@ -828,7 +828,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
   margin-bottom: 0;
 }
 .ico-cards .ico-flex-wrap .ico-card h5 {
-	color: #69c029;
+	color: #09c3dc;
 	opacity: 0.9;
 	font-weight: 600;
 	font-size: 1.6em;
@@ -986,7 +986,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
 
 /* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #69c029;
+  background-color: #09c3dc;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
