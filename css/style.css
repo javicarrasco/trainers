@@ -74,13 +74,11 @@ gris oscuro= #D3D3D3
 body {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
-  font-size: 10px;
   line-height: 1.6;
   color: rgba(0, 0, 0, 0.8);
 }
 @media screen and (max-width: 992px) {
   body {
-    font-size: 16px;
   }
 }
 
@@ -98,7 +96,7 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  font-size: 16px;
+  font-size: 17px;
 	font-weight: 400;
   margin: 10px 0 10px 0;
 	line-height: 1.9em;
@@ -113,15 +111,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .6em;
 }
 h1 {
-  font-size: 70px;
+  font-size: 80px;
   line-height: 1em;
 }
 h2 {
-  font-size: 55px;
+  font-size: 60px;
   line-height: 1em;
 }
 h3 {
-  font-size: 35px;
+  font-size: 40px;
   padding-left: .2em;
   padding-right: .2em;
   padding-top: .2em;
@@ -131,18 +129,18 @@ h3 {
 	display: inline-block;
 }
 h4 {
-  font-size: 24px;
+  font-size: 26px;
   color: #000000;
 }
 h5 {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1em;
 }
 h6 {
   color: #999999;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.4em;
 }
 label {
@@ -247,10 +245,13 @@ button {
   color: #FAA300;
 }
 .negrita{
-  font-weight: 800;
+  font-weight: 600;
 }
 .gris{
   opacity: 0.7;
+}
+.montse{
+  font-family: "Montserrat", Arial, sans-serif;
 }
 ::-webkit-selection {
   color: #fff;
@@ -292,12 +293,12 @@ button {
 	margin: 50px auto;
 }
 .contenedor {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .piefoto {
-	  max-width: 800px;
-    margin: 0 auto;
+	max-width: 800px;
+  margin: 0 auto;
 }
 .piefoto p{
 	  text-align: center;
@@ -450,7 +451,7 @@ button {
 #ico-aside #ico-main-menu ul li a {
   color: rgba(0, 0, 0, 0.3);
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
 	line-height: 1;
 	margin-bottom: 30px;
   font-weight: 600;
@@ -464,7 +465,7 @@ button {
 #ico-aside #ico-main-menu ul ol li a {
   color: rgba(0, 0, 0, 0.3);
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
 	line-height: 1.1;
   font-weight: 500;
   position: relative;
@@ -539,7 +540,6 @@ button {
 }
 #ico-aside .ico-footer {
   bottom: 30px;
-  font-size: 14px;
   text-align: left;
 	margin-left: 15px;
   width: 100%;
@@ -760,11 +760,7 @@ body.offcanvas #ico-main, body.offcanvas .ico-nav-toggle {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-.ico-franja .item p {
-/*
-	font-size: 30px;
-*/
-}
+
 @media screen and (max-width: 768px) {
   .ico-franja .item p {
     font-size: 28px;
